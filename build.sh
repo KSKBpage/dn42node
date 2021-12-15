@@ -1,5 +1,6 @@
 #!/bin/bash
 set -x
+set -a
 . $LOC.env
 export DOLLAR='$'
 cd public
