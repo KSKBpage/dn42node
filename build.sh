@@ -3,6 +3,7 @@ set -x
 set -a
 
 export DOLLAR='$'
+export BTN_AUTOPEER_TEXT="Auto Peer"
 
 for theenv in *.env; do
 eval $( source $theenv;
